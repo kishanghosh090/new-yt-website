@@ -1,12 +1,3 @@
-// let ham = document.querySelector(".ham")
-// let navres = document.querySelector(".nav-res")
-// let nav = document.querySelector(".nav")
-
-// ham.addEventListener("click", () => {
-//     navres.classList.toggle("nav-res")
-//     nav.classList.toggle("nav")
-// })
-
 let navres = document.querySelector(".nav-res")
 let ham = document.querySelector(".ham")
 
