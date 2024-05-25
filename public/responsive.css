@@ -1,0 +1,157 @@
+@media(min-width: 1050px) {
+    .res-ham {
+        display: none;
+    }
+}
+
+@media(max-width: 1050px) {
+
+    /* .list ul {
+        flex-direction: column;
+        height: 20vh;
+        width: 21rem;
+        position: relative;
+        top: 140px;
+        background-color: red;
+    } */
+    /* .list ul {
+        flex-direction: column;
+    }
+
+    .header {
+        background-color: #eff4f6;
+        height: 7vh;
+    }
+
+
+    .navbar {
+        flex-direction: column;
+        height: 41vh;
+        /* display: none; 
+    }*/
+
+
+    /* .nav-res {
+        translate: 1126px 63px; */
+    /* display: none; */
+    /* }
+
+    .img {
+        flex-direction: column;
+    }
+
+    .ham {
+        font-weight: 900;
+        position: relative;
+        top: -350px;
+        left: 10px; */
+    /* top: -20px;
+        right: -923px; }*/
+    .header {
+        height: 7vh;
+    }
+
+    .navbar {
+        backdrop-filter: blur(21px);
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 1px 1px 50px rgba(0,0,0,0.8);
+        flex-direction: column;
+        border-radius: 1rem;
+        height: 52vh;
+        width: 100%;
+        z-index: 9;
+        position: relative;
+        top: 4.9rem;
+        right: -14px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-res {
+        translate: -1369px 0px;
+    }
+
+    .ham {
+        position: relative;
+        top: 10px;
+        right: 49px;
+    }
+
+    .list ul {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .img {
+        flex-direction: column;
+    }
+
+
+    .hero {
+        height: 90vh;
+    }
+
+    .seccontent1,
+    .seccontent2,
+    .seccontent3,
+    .seccontent4 {
+        width: 22rem;
+        box-shadow: 0 0 14px rgb(63, 140, 181);
+    }
+
+    .section1 {
+        height: 182vh;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media(max-width: 868px) {
+    .faq-container {
+        height: 47vh;
+        width: 86%;
+        background-color: #ddeaef;
+    }
+
+    .qna {
+        width: 91%;
+    }
+
+    .section2 {
+        height: 57vh;
+    }
+
+    .faq {
+        height: 8vh;
+        font-size: 1.2rem;
+    }
+
+    .qna h3 {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 495px) {
+    .owner-img img {
+        height: 14rem;
+        width: 18rem;
+    }
+
+    .hero .text1 {
+        font-size: 2.5rem;
+    }
+
+    .hero .text2 {
+        font-size: 1.5rem;
+    }
+
+    .hero .text3 {
+        font-size: 1.2rem;
+    }
+
+    .secimg img {
+        height: 10rem;
+        width: 15rem;
+    }
+    .seccontent1, .seccontent2, .seccontent3, .seccontent4 {
+        width: 20rem;
+      }
+}
