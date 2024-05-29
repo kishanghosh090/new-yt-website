@@ -1,3 +1,11 @@
+// preloader
+let preloader  = document.querySelector(".loading")
+function myFun(){
+    preloader.style.display = 'none'
+}
+// preloader end
+
+
 let navres = document.querySelector(".nav-res")
 let ham = document.querySelector(".ham")
 
