@@ -56,7 +56,7 @@
         box-shadow: 0 0 14px rgb(63, 140, 181);
     }
     /* animation */
-    .seccontent1{
+    /* .seccontent1{
         animation: animateViewleft linear;
         animation-timeline: view();
         animation-range: entry 0 cover 50%;
@@ -91,7 +91,7 @@
         100%{
           translate: 0 0;
         }
-    }
+    } */
 
 
     .section1 {
@@ -99,7 +99,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .faq-container {
+    /* .faq-container {
         height: 40vh;
         width: 60%;
         background-color: #ddeaef;
@@ -119,8 +119,8 @@
             translate: 0 0;
         }
     }
-
-}
+*/
+} 
 
 @media(max-width: 868px) {
     .faq-container {
