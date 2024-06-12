@@ -198,35 +198,31 @@ body {
 .seccontent3 {
     animation: animateViewleft linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 50%;
+    animation-range: entry 0 cover 40%;
 }
 
 .seccontent4 {
     animation: animateViewright linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 50%;
+    animation-range: entry 0 cover 40%;
 }
 
 @keyframes animateViewleft {
     0% {
-        opacity: 0;
-        translate: -800px 0;
+        translate: 0 700px;
     }
 
     100% {
-        opacity: 1;
         translate: 0 0;
     }
 }
 
 @keyframes animateViewright {
     0% {
-        opacity: 0;
-        translate: 1200px 0;
+        translate: 0 700px;
     }
 
     100% {
-        opacity: 1;
         translate: 0 0;
     }
 }
