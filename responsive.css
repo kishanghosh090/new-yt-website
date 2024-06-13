@@ -21,6 +21,8 @@
         top: 4.9rem;
         right: -14px;
         transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1.2);
+        background-color: #fff;
+        color: black;
     }
 
     .nav-res {
@@ -60,6 +62,11 @@
     .section1 {
         height: 182vh;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .list ul li a {
+        font-size: 1rem;
+        font-weight: 600;
+        color: black;
     }
 } 
 
